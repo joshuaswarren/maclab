@@ -1006,3 +1006,7 @@ or Asahi Linux project, and it isn't affiliated with Apple.
 ## Artifact package boot-test workflow
 
 `lab boot-test` accepts an exact reviewed device profile/catalog and kernel, Mesa and boot-setup artifacts, compiles the finite workflow, then invokes the real local runner with plan-bound authorization. Recovery mode is explicit (`network-only` or `serial-assisted`); pending device adapters are refused. See [the command, source-review contract and limits](docs/artifact-boot-test.md). `make boot-test-dist BOOT_TEST_OUT=/owned/new-prefix` builds a relocatable local command/resource prefix without installing services or contacting a Mac. Device owner/compiler closures and per-run artifact/authorization data remain explicit reviewed inputs; this does not claim every historical prototype is packaged or portable.
+
+## Contributors
+
+Everyone credited so far: [CONTRIBUTORS.md](CONTRIBUTORS.md).
